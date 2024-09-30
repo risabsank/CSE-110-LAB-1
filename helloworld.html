@@ -1,14 +1,127 @@
 <html>
-<img src="images/logo_UCSD.png">
-<a href="#section1">Section 1</a>
-<a href="#section2">Section 2</a>
-<div id="section1">
-    <h2>Section 1</h2>
-    <img src="https://brand.ucsd.edu/_images/logos-and-brand-elements/additional-campus-logos/ucsd-athletics-logo.svg">
-</div>
-<div id="section2">
-    <h2>Section 2</h2>
-    <img src="https://brand.ucsd.edu/_images/logos/logos-college-logos-07-23.svg">
-</div>
+
+<head>
+    <link rel="stylesheet" href="style/styles.css">
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: white;
+        }
+
+        li {
+            float: left;
+            font-size: 20px;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: #182b49;
+            color: white;
+        }
+
+        #navbar {
+            position: sticky;
+            top: 0;
+            max-width: 400px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="images/logo_UCSD.png" style="padding-left: 10px;">
+    <div id="navbar">
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+        </ul>
+    </div>
+    <div id="section1" class="section-1">
+        <h2 style="padding-left: 10px;">Section 1</h2>
+        <img
+            src="https://brand.ucsd.edu/_images/logos-and-brand-elements/additional-campus-logos/ucsd-athletics-logo.svg">
+        <p style="padding-left: 10px; padding-right: 10px;">Lorem Ipsum es simplemente el texto de relleno de las
+            imprentas y archivos de
+            texto. Lorem Ipsum ha sido el
+            texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se
+            dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un
+            libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en
+            documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la
+            creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con
+            software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+    </div>
+    <div id="section2" class="section-2">
+        <h2 style="padding-left: 10px; padding-right: 10px;">Section 2</h2>
+        <img src="https://brand.ucsd.edu/_images/logos/logos-college-logos-07-23.svg"
+            style="padding-left: 10px; padding-right: 10px;">
+        <p style="padding-left: 10px; padding-right: 10px;">Lorem Ipsum es simplemente el texto de relleno de las
+            imprentas y archivos de
+            texto. Lorem Ipsum ha sido el
+            texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se
+            dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un
+            libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en
+            documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la
+            creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con
+            software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+    </div>
+    <div id="section3" class="section-3">
+        <h2 style="padding-left: 10px; padding-right: 10px;">Section 3</h2>
+        <div class=" row" style="padding-left: 10px; padding-right: 10px;">
+            <div class="column">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+                Lorem Ipsum ha sido el
+                texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que
+                se
+                dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer
+                un
+                libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno
+                en
+                documentos electrónicos, quedando esencialmente igual al original.
+            </div>
+            <div class="column">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+                Lorem Ipsum ha sido el
+                texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que
+                se
+                dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer
+                un
+                libro de textos especimen.
+            </div>
+            <div class="column">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+                Lorem Ipsum ha sido el
+                texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que
+                se
+                dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer
+                un
+                libro de textos especimen.
+            </div>
+            <div class="column">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+                Lorem Ipsum ha sido el
+                texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que
+                se
+                dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer
+                un
+                libro de textos especimen.
+            </div>
+        </div>
+</body>
 
 </html>

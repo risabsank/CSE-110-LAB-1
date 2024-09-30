@@ -1,0 +1,48 @@
+.section-1 {
+    background-color: #f5f0e6;
+    scroll-margin-top: 46.5px;
+    display: inline-block;
+}
+
+.section-2 {
+    background-image: url("../images/bg-orbs-1.jpg");
+    color: white;
+    scroll-margin-top: 46.5px;
+    display: inline-block;
+}
+
+.section-3 {
+    display: inline-block;
+    background-color: #f5f0e6;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    margin-left: 25px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -12.5px;
+}
+
+.column {
+    flex: 1;
+    margin: 0 12.5px;
+    padding: 10px;
+    background-color: #182b49;
+    box-sizing: border-box;
+    color: white;
+    max-height: 500px;
+    overflow-y: auto;
+}
